@@ -1,3 +1,29 @@
+.destination .btn {
+  width: 82%;
+  background-color: #0a5c69;
+  border-radius: 30px;
+  display: flex;
+  vertical-align: middle;
+  height: 45px;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+.destination .btn:hover {
+  background: rgba(10, 92, 105, 0.7);
+  transition-duration: 1.4s;
+}
+.destination .btn:hover a {
+  transition-duration: 1.5s;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 1.9rem;
+}
+.destination .btn a {
+  color: white;
+  margin: 0 auto;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -210,9 +236,10 @@ ul li a {
 }
 .footer p {
   text-align: center;
-  color: green;
+  color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+  font-weight: bolder;
 }
 .home .content-section {
   margin: 30px 0;
