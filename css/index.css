@@ -194,6 +194,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    padding: 0px 5px;
+  }
+}
 header {
   position: fixed;
   background: #ffffff;
@@ -213,12 +218,25 @@ header nav {
   align-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 header nav ul {
   display: flex;
   justify-content: space-evenly;
   width: 37%;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  header nav ul {
+    width: 100%;
+    align-self: baseline;
+    padding-top: 5px;
+  }
 }
 ul li a {
   font-size: 1.6rem;
