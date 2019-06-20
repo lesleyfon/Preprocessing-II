@@ -6,11 +6,28 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
+    .main-header{
+      margin-bottom: 33px;
+      img{
+        width: 100%;
+      }
+      .main-header-text{
+        line-height: 60px;
+       font-weight: @font-weight;
+
+        p{
+          padding-bottom: 25px;
+          border-bottom: 2px dashed silver;
+          
+        }
+      } 
+      
+    }
     .text-content {
       width: 48%;
       padding-right: 1%;
+     font-weight: @font-weight;
+
     }
 
     .img-content {
@@ -26,6 +43,8 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+   font-weight: @font-weight;
+
 
     .text-content {
       padding-left: 1%;
@@ -41,6 +60,8 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    font-weight: @font-weight;
+    
 
     img {
       border-radius: 10px;
@@ -56,6 +77,8 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      font-weight: @font-weight;
     }
   }
 }// home
+
