@@ -369,10 +369,27 @@ ul li a {
 .vacation-form form select {
   margin: 20px 0px 0px 5px;
   margin-bottom: 20px;
-  height: 30px;
+  height: 50px;
   width: 90%;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  border-radius: 30px;
+  color: inherit;
+  font-weight: bolder;
+}
+.vacation-form form input:focus,
+.vacation-form form select:focus {
+  padding: 10px 0px;
+  box-shadow: 2px ;
+  background: #FFEBCD;
+  color: #0a5c69;
+  border-radius: 30px;
+}
+.vacation-form form select {
+  text-align-last: center;
 }
 .vacation-form form textarea {
   margin: 20px 0px 0px 5px;
