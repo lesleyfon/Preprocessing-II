@@ -269,6 +269,8 @@ ul li a {
   .home .content-section {
     flex-direction: column;
     width: 100%;
+    align-content: center;
+    align-items: center;
   }
 }
 .home .content-section .main-header {
