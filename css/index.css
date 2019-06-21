@@ -363,16 +363,18 @@ ul li a {
 }
 .vacation-form {
   width: 100%;
+  margin-top: 20px;
 }
-.vacation-form form label {
-  width: 100%;
-  height: 50px;
-}
-.vacation-form form label input,
-.vacation-form form label textarea,
-.vacation-form form label select {
-  margin: 20px 0px 0px 10px;
+.vacation-form form input,
+.vacation-form form select {
+  margin: 20px 0px 0px 5px;
   margin-bottom: 20px;
   height: 30px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid;
+}
+.vacation-form form textarea {
+  margin: 20px 0px 0px 5px;
   width: 90%;
 }
