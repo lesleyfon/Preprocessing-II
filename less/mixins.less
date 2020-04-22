@@ -1,1 +1,35 @@
 // Mixins in here
+.button(@width, @bg-color){
+    width: @width;
+    background-color: @bg-color;
+    border-radius: 30px;
+    display: flex;
+}
+//
+
+
+.destination{
+    .btn{
+        .button(82%, #0a5c69);
+        vertical-align: middle;
+        height: 45px;   
+        padding: 15px;
+        font-size: 1.5rem;
+        &:hover {
+            background: fade(#0a5c69, 70%);
+            transition-duration: 1.4s;
+            a{
+                transition-duration: 1.5s;
+                color: #000000;
+                font-weight: bolder;
+                font-size: 1.9rem;
+            }
+          }
+        a{
+            color: white;
+            margin: 0 auto;
+            text-decoration: none;
+            letter-spacing: 2px;
+        }
+    }
+}

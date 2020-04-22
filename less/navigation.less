@@ -1,1 +1,49 @@
 // Navigation Styles here
+
+header{
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    top: 0;
+    left:0;
+    right:0;
+    border-bottom: 2px dashed silver;
+   
+    nav{
+        display: flex;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px 0px;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        @media @mobile{
+            flex-direction: column;
+            width: 100%;            
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            width: 37%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            @media @mobile{
+                width: 100%;   
+                align-self: baseline; 
+                padding-top: 5px;     
+            }
+            
+        }
+    }
+}
+ul li a{
+    font-size: 1.6rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clear{
+    margin-bottom: 100px;
+}
